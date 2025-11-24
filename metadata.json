@@ -1,0 +1,5 @@
+{
+  "name": "BOQ Generator V7",
+  "description": "An intelligent application that generates a detailed Bill of Quantities (BOQ) for audio-visual solutions based on room specifications and client requirements, powered by Gemini.",
+  "requestFramePermissions": []
+}

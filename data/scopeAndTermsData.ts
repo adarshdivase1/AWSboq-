@@ -1,0 +1,72 @@
+export const companyTemplate = {
+    contactDetails: [
+        ["Contact Details"],
+        ["Design Engineer", ""],
+        ["Account Manager", ""],
+        ["Client Name", ""], 
+        ["Key Client Personnel", ""],
+        ["Location", ""],
+        ["Key Comments for this version", ""],
+    ],
+    commercialTerms: {
+        "Scope of Work": [
+            ["Sr. No", "Particulars"],
+            [1, "Site Coordination and Prerequisites Clearance."],
+            [2, "Detailed schematic drawings according to the design."],
+            [3, "Conduit layout drawings/equipment layout drawings, showing mounting location."],
+            [4, "Laying of all AV Cables."],
+            [5, "Termination of cables with respective connectors."],
+            [6, "Installation of all AV equipment in rack as per layout."],
+            [7, "Configuration of Audio/Video Switcher."],
+            [8, "Configuration of DSP mixer."],
+            [9, "Touch Panel Design."],
+            [10, "System programming as per design requirement."],
+        ],
+        "Exclusions and Dependencies": [
+            ["Sr. No", "Particulars"],
+            [1, "The scope of work described in this SoW does not include the following items: Civil work like cutting of false ceilings, chipping, etc."],
+            [2, "Electrical work like laying of conduits, raceways, and providing stabilised power at required locations."],
+            [3, "Carpentry work like cutouts on furniture, etc."],
+            [4, "Connectivity for electric power, LAN, telephone, IP (1 Mbps), and ISDN (1 Mbps). A separate power circuit for AV system on the same phase is required."],
+            [5, "Ballasts (0 to 10 volts) in case of fluorescent dimming for lights."],
+            [6, "Shelves for mounting devices (in case the supply of rack isn't in the SOW)."],
+            [7, "Adequate cooling/ventilation for all equipment racks and cabinets."],
+        ],
+        "Storage and Insurance": [
+            ["Sr. No", "Particulars"],
+            [1, "Client accepts that the safety of the materials on site cannot be assured by All Wave AV Systems and undertakes to provide storage space for materials in a secure, clean, termite free and dry space during implementation stage."],
+            [2, "Client to organize Insurance (against theft, loss or damage by third party) of materials."],
+            [3, "During the period of installation, any shortage of material due to pilferage, misplacement etc. at site would be in client's account."],
+            [4, "Further, if due to storage at site / warehouse for prolonged periods, refurbishment of the equipment is needed due to natural aging, the same will be in client's account."],
+        ],
+        "Project Commissioning & Handover": [
+            ["Sr. No", "Particulars"],
+            ["1a", "All Wave AV Systems will conduct testing of the installed system. Client to authorize one person who would be part of this testing and will sign-off the ATP report / Handover documents."],
+            ["1b", "The features and functionalities that are part of this specific project SOW only will form a part of this ATP."],
+            ["1c", "Any deviation/additional testing will be conducted, provided the same is in line with standards and after mutual discussion."],
+            ["1d", "ATP and Handover documents to be signed within 3 days of project completion, including resolution of all snags. In case a certain area has an outstanding snag, Client to sign-off on the other working area's so the project can go live."],
+            ["1e", "In the event that the ATP and Handover documents are not signed within 7 days of project completion, including resolution of all snags, the handover will be deemed completed and warranty period will automatically commence within 7 days."],
+        ],
+        "Project Documentation": [
+            ["Sr. No", "Particulars"],
+            ["2a", "All Wave AV Systems will submit comprehensive site documentation containing As-Built Drawings, System Schematics, User Manual and support / escalation related information (1 set hardcopy)."],
+            ["2b", "All Wave AV Systems may refer to Client as our Client and describe the project undertaken in communication initiatives for Clients and/or prospects."],
+        ],
+        "Training": [
+            ["Sr. No", "Particulars"],
+            [1, "User Training on the features, functions and usage of the installed AV system."],
+            [2, "Maintenance Training for the appropriate personnel on the first level of maintenance required."],
+            [3, "Sign-off from Client will take place on completion of the above-mentioned modules."],
+        ],
+        "Warranty": [
+            ["Sr. No", "Particulars"],
+            [1, "All Wave AV Systems is committed to replace or repair any defective part that needs replacement or repair because of defective workmanship or defects, brought to our notice during the warranty period."],
+            [2, "A Limited Period Warranty on certain consumables, which includes Warranty on the Projector Lamp (450 hours of use or 90 days from purchase whichever is earlier) and warranty on other consumables like Filters and Touch Panel Battery (90 days)."],
+            [3, "Further extension in warranty can be provided by All Wave AV Systems by way of a separate Maintenance Contract (at an additional cost)."],
+            ["", "However, Client understands that the warranty cannot be applicable in the following situations:"],
+            ["3a", "Power related damage to the system on account of power fluctuations or spikes. The equipment should always be used through a stabilized power supply / online UPS."],
+            ["3b", "Accident, misuse, neglect, alteration modification or substitution of any component of the equipment."],
+            ["3c", "Any loss or damage resulting from fire, flood, exposure to weather conditions and any other force majeure/ act of god."],
+        ]
+    }
+};
